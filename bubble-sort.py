@@ -13,3 +13,5 @@ def bubble_sort(arr):
                 arr[j], arr[j+1] = arr[j+1], arr[j]
     
     return arr
+
+# the reason why we have the n-i-1 is to shrink the array every time so last doesnt get compared remember this !!
